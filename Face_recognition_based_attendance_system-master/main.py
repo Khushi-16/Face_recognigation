@@ -47,6 +47,7 @@ def save_pass():
     exists1 = os.path.isfile("TrainingImageLabel\psd.txt")
     if exists1:
         tf = open("TrainingImageLabel\psd.txt", "r")
+        
         key = tf.read()
     else:
         master.destroy()
